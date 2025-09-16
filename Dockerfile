@@ -1,4 +1,4 @@
-FROM debian:trixie AS base
+FROM 893087526002.dkr.ecr.eu-west-1.amazonaws.com/bynder-python:3.12 AS base
 
 COPY pyproject.toml poetry.lock ./
 

@@ -1,4 +1,4 @@
-FROM debian:bookworm AS base
+FROM debian:trixie AS base
 
 COPY pyproject.toml poetry.lock ./
 

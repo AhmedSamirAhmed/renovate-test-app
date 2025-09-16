@@ -1,4 +1,4 @@
-FROM python:3.13-slim-bookworm AS base
+FROM debian:bookworm AS base
 
 COPY pyproject.toml poetry.lock ./
 

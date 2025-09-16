@@ -1,4 +1,4 @@
-FROM 893087526002.dkr.ecr.eu-west-1.amazonaws.com/ecr-public/docker/library/python:3.13-alpine AS base
+FROM python:3.13-alpine AS base
 
 COPY pyproject.toml poetry.lock ./
 
